@@ -1,34 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>White Flower Spin</title>
-	<style>
-		body {
-			background-color: green;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: 100vh;
-			margin: 0;
-		}
-		.flower {
-			width: 200px;
-			height: 200px;
-			background-image: url('flower.png');
-			background-size: cover;
-			animation: spin 3s linear infinite;
-		}
-		@keyframes spin {
-			0% {
-				transform: rotate(0deg);
-			}
-			100% {
-				transform: rotate(360deg);
-			}
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spinning Flower</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="flower"></div>
+  <div class="container">
+    <img src="flower.png" alt="White Flower" id="flower">
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
