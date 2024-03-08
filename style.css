@@ -1,0 +1,27 @@
+body {
+  background-color: #fff;
+  animation: rotate 5s linear infinite;
+}
+
+.flower {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: bounce 3s linear infinite;
+}
+
+.flower-inner {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
